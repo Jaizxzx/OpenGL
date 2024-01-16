@@ -28,7 +28,7 @@ int main(void)
     glewInit();
 
     /* Create a windowed mode window and its OpenGL context */
-    window = glfwCreateWindow(960, 540, "Hello World", NULL, NULL);
+    window = glfwCreateWindow(960, 540, "Graphic Test Pipeline", NULL, NULL);
     if (!window)
     {
         glfwTerminate();
